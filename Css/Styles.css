@@ -1,0 +1,31 @@
+.FieldInfo{
+    color: rgb(251, 174, 44);
+    font-family: Bitter,Georgia,"Times New Roman",Times,serif;
+    font-size: 1.2em;
+}
+.CommentBlock{
+background-color:#F6F7F9;
+}
+
+/*Needs Editing to keep the Navbar static and bring foward!!*/
+    .header{
+      width: 100%;
+      top: 0;
+      position: fixed;
+      z-index: 1;
+    }
+    .asside
+    {
+      position: fixed;
+      left: 65%;
+      height: 100%;
+      overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    }
+    /* Needs editing for Media Query to keep the sidebar in a relative positon at 950px; */ 
+    @media(max-width: 950px){
+      .asside{
+        position: relative;
+       left: 0;
+      }    
+    }
+    
